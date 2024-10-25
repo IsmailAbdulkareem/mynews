@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My News Website</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #4982c2;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav {
+            margin: 1px 0;
+        }
+        nav a {
+            margin: 0 15px;
+            color: #fff;
+            text-decoration: none;
+        }
+        .container {
+            display: flex; /* Use flexbox for layout */
+            justify-content: space-between; /* Space between boxes */
+            width: 10;
+            margin: auto; /* Center the container */
+        }
+        .box {
+            background: #fff;
+            padding: 2px;
+            margin: 1000px; /* Space around each box */
+            border-radius: 500px;
+            box-shadow: 0 2px 5px rgba(73, 116, 182, 0.1);
+            flex: 0 0 4%; /* Each box takes up about 48% of the container width */
+            box-sizing: border-box; /* Include padding in width calculation */
+        }
+        .news-items {
+            display: flex; /* Use flexbox for layout */
+            margin: 1px; /* Space around each box */
+            /* Space between items */
+            flex-wrap: wrap; /* Allow items to wrap onto the next line */
+        }
+        .news-item {
+            background: #fff;
+            padding: 2px;
+            
+            border-radius: 5px;
+            box-shadow: 0 2px 5px rgba(103, 192, 192, 0.1);
+            flex: 0 0 100%; /* Each item takes up 48% of the container width */
+            box-sizing: border-box; /* Include padding in width calculation */
+        }
+        footer {
+            background: #49b6c9;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img class="w-44" src="https://www.dawn.com/_img/logo.png" alt="DAWN.COM Logo">
+        <h1>My News Website</h1>
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">World</a>
+            <a href="#">Latest</a>
+            <a href="#">Gaza Siege</a>
+            <a href="#">Pakistan</a>
+            <form >
+                <p>Search:</p>
+                <input type="search" name="search" />
+                <input type="submit" value="Search" />
+                </form>
+        </nav>
+    </header>
+
+    <div class="container">
+        <div class="news-items">
+            <div class="news-item">
+                      <h2>Israel says Mossad chief to head to Doha for new round of Gaza talks</h2>
+                <img width="180" src="https://i.dawn.com/medium/2024/10/24213519ea1602b.jpg?r=213522" alt="Israel says Mossad chief to head to Doha for new round of Gaza talks" title="Israel says Mossad chief to head to Doha for new round of Gaza talks">
+                <p>Published on: <em>October 24, 2024</em></p>
+                <p>Israeli hostage families urge Netanyahu, Hamas to reach Gaza deal; Gaza rescuers say 770 people killed in Israel assault in the north.</p>
+                <hr>
+               
+            </div>
+           
+
+            <div class="news-item">
+                <h2>Editorial: It is hoped under Justice Afridi, SC can heal fractures that developed under CJP Isa’s watch</h2>
+                <img src="https://i.dawn.com/medium/2024/10/24090459ddd8345.jpg?r=090510" alt="Editorial: It is hoped under Justice Afridi, SC can heal fractures that developed under CJP Isa’s watch" title="Editorial: It is hoped under Justice Afridi, SC can heal fractures that developed under CJP Isa’s watch">
+                <hr>
+            </div>
+            
+        </div>
+
+        <div class="news-items">
+            <div class="news-item">
+                <h2>A year after SC annulled military courts, civilians await justice</h2>
+                <img width="180" class=" ls-is-cached lazyloaded" src="https://i.dawn.com/medium/2024/10/23135743980a806.gif?r=135827" data-src="https://i.dawn.com/medium/2024/10/23135743980a806.gif?r=135827" alt="A year after SC annulled military courts, civilians await justice" title="A year after SC annulled military courts, civilians await justice">
+                <hr>
+            </div>
+
+            <div class="news-item">
+                <img width="180" src="https://i.dawn.com/primary/2024/10/210217049def375.png" alt title>
+                <h2>Caught in the web: Surveillance, data protection and AI in Pakistan</h2>
+                <p>Despite repeated promises and drafts, Pakistan’s inability to pass a comprehensive data protection law has left citizens vulnerable to scams, data breaches, and unchecked surveillance.</p>
+                <hr>
+            </div>
+            <div class="news-item">
+                <h2>Pakistan formally requests $1bn from IMF: finance minister</h2>
+                <img class=" ls-is-cached lazyloaded" src="https://i.dawn.com/thumbnail/2024/10/24113745606e055.jpg?r=154016" data-src="https://i.dawn.com/thumbnail/2024/10/24113745606e055.jpg?r=154016" alt="Pakistan formally requests $1bn from IMF: finance minister" title="Pakistan formally requests $1bn from IMF: finance minister">
+                <hr>
+            </div>
+            <div class="news-item">
+                <h2>High-value target among 9 terrorists killed in Bajaur IBO: ISPR</h2>
+                <img src="https://i.dawn.com/medium/2024/10/241213599d2d7ab.png?r=121715" alt="High-value target among 9 terrorists killed in Bajaur IBO: ISPR" title="High-value target among 9 terrorists killed in Bajaur IBO: ISPR">
+                <hr>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2024 My News Website. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
+
+
